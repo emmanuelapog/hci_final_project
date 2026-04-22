@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us · EmFlow Sneakers</title>
+
+   
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <style>
+    body{
+        background-image: url(shoeB2.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+
+    
+    <div class="overlay-bg"></div>
+
+    
+    <nav>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="EmFlow Logo" class="logo">
+            <span class="brand-name">EmFlow</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    
+    <section class="contact-section">
+        <div class="contact-form-container">
+            <h1>Contact Us</h1>
+            <p>Have any questions or need support? We’re here to help. Feel free to reach out, and we’ll get back to you as soon as possible!</p>
+
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+                <label for="contact_number">Contact Number</label>
+                <input type="text" name="contact_number" id="contact_number" placeholder="Your Contact Number" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
